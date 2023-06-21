@@ -1,0 +1,361 @@
+[
+    {
+        "idx": 1,
+        "titulo": "REMERA JORDAN AIR - Red",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/6aab76/www.zooko.com.uy/zoo/2a5c/webp/catalogo/NKDM3182-612-1/460x460/remera-jordan-air-pink.jpg",
+        "precio": "$2290",
+        "categoria":"hombre",
+        "stock": "7"
+    },
+
+    {
+        "idx": 2,
+        "titulo": "CAMPERA PUMA AVENIR FZ HOODIE",
+        "marca": "https://f.fcdn.app/imgs/3d201d/www.zooko.com.uy/zoo/3be3/webp/marcas/puma/100x70/puma",
+        "imagen": "https://f.fcdn.app/imgs/2b3a74/www.zooko.com.uy/zoo/840d/webp/catalogo/PM531445-01-1/460x460/campera-puma-avenir-fz-hoodie-black.jpg",
+        "precio": "$3690",
+        "categoria": "hombre",
+        "stock": "17"
+    },
+
+    {
+        "idx": 3,
+        "titulo": "CANGURO JORDAN BROOKLYN FLEECE",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/4a1da2/www.zooko.com.uy/zoo/1c74/webp/catalogo/NKDQ7466-010-1/460x460/canguro-jordan-brooklyn-fleece-black.jpg",
+        "precio": "$3990",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 4,
+        "titulo": "CANGURO ADIDAS ESSENTIALS",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/3cddde/www.zooko.com.uy/zoo/e167/webp/catalogo/ADHR8618-1032-1/460x460/canguro-adidas-essentials-black.jpg",
+        "precio": "$5290",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 5,
+        "titulo": "REMERA ADIDAS CLASSICS - GREEN",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/7c0e42/www.zooko.com.uy/zoo/7a44/webp/catalogo/ADIA4819-2719-1/460x460/remera-adidas-adicolor-classics-trefoil-tee-dark-green.jpg",
+        "precio": "$2390",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 6,
+        "titulo": "REMERA AVENIR CRINKLE TEE - 02",
+        "marca": "https://f.fcdn.app/imgs/3d201d/www.zooko.com.uy/zoo/3be3/webp/marcas/puma/100x70/puma",
+        "imagen": "https://f.fcdn.app/imgs/acb7df/www.zooko.com.uy/zoo/e00a/webp/catalogo/PM597330-02-1/460x460/remera-avenir-crinkle-tee-02.jpg",
+        "precio": "$1590",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 7,
+        "titulo": "AIR JORDAN 1 ZOOM CMFT 2 - Gray",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/b391d9/www.zooko.com.uy/zoo/8bb7/webp/catalogo/NKDV1307-060-1/460x460/air-jordan-1-zoom-cmft-2-gray.jpg",
+        "precio": "$9990",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 8,
+        "titulo": "NEW BALANCE MR530 - CC",
+        "marca": "https://f.fcdn.app/imgs/74ce14/www.zooko.com.uy/zoo/364b/webp/marcas/new-balance/100x70/new-balance",
+        "imagen": "https://f.fcdn.app/imgs/bda3f2/www.zooko.com.uy/zoo/9ccd/webp/catalogo/NBMR530CC-2458-1/460x460/new-balance-mr530-cc.jpg",
+        "precio": "$5890",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 9,
+        "titulo": "VANS AUTHENTIC VN000EE3BLK - BLACK",
+        "marca": "https://f.fcdn.app/imgs/cda922/www.zooko.com.uy/zoo/aaa6/webp/marcas/vans/100x70/vans",
+        "imagen": "https://f.fcdn.app/imgs/aaa64a/www.zooko.com.uy/zoo/0b13/webp/catalogo/78003-1032-1/460x460/vans-authentic-vn000ee3blk-black.jpg",
+        "precio": "$3290",
+        "categoria": "hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 10,
+        "titulo": "BUZO NIKE SPORTSWEAR CLUB FLEECE",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/2ed5c1/www.zooko.com.uy/zoo/09dc/webp/catalogo/NKDQ6776-667-1/460x460/buzo-nike-sportswear-club-fleece-pink.jpg",
+        "precio": "$3690",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 11,
+        "titulo": "CAMPERA CATERPILLAR FOUNDATION",
+        "marca": "https://f.fcdn.app/imgs/ccff33/www.zooko.com.uy/zoo/30d5/webp/marcas/cat/100x70/cat",
+        "imagen": "https://f.fcdn.app/imgs/f38f95/www.zooko.com.uy/zoo/684a/webp/catalogo/CT4030008-3239-1/460x460/campera-caterpillar-foundation-grid-fleece-black.jpg",
+        "precio": "$4090",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 12,
+        "titulo": "BUZO NIKE OVERSIZED - 530",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/036732/www.zooko.com.uy/zoo/44dd/webp/catalogo/NKDM6417-530-1/460x460/buzo-nike-oversized-530.jpg",
+        "precio": "$3990",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 13,
+        "titulo": "REMERA ADIDAS 3-STRIPES - BLACK",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/ab8574/www.zooko.com.uy/zoo/0bff/webp/catalogo/ADED7482-000-1/460x460/remera-adidas-3-stripes-black-white.jpg",
+        "precio": "$2690",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 14,
+        "titulo": "REMERA NIKE ESSENTIAL ICON FUTURA",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/d4dadc/www.zooko.com.uy/zoo/2ca4/webp/catalogo/NKBV6169-695-1/460x460/remera-nike-sportswear-essential-icon-futura-pink.jpg",
+        "precio": "$1690",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 15,
+        "titulo": "REMERA NIKE AIR - BLACK",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/151bc4/www.zooko.com.uy/zoo/eed0/webp/catalogo/NKDX7918-010-1/460x460/remera-nike-air-black.jpg",
+        "precio": "$2790",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 16,
+        "titulo": "NIKE DUNK LOW - WHITE",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/b5c2e9/www.zooko.com.uy/zoo/6a6b/webp/catalogo/NKFD1449-100-1/460x460/nike-dunk-low-white.jpg",
+        "precio": "$7290",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 17,
+        "titulo": "NIKE DUNK HIGH - GRAY",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/087a92/www.zooko.com.uy/zoo/ac49/webp/catalogo/NKDD1869-005-1/460x460/nike-dunk-high-gray.jpg",
+        "precio": "$2290",
+        "categoria": "Hombre",
+        "stock": "12"
+    },
+
+    {
+        "idx": 18,
+        "titulo": "NEW BALANCE 550 - WHITE",
+        "marca": "https://f.fcdn.app/imgs/74ce14/www.zooko.com.uy/zoo/364b/webp/marcas/new-balance/100x70/new-balance",
+        "imagen": "https://f.fcdn.app/imgs/dd7720/www.zooko.com.uy/zoo/31fe/webp/catalogo/NBBBW550BC-WHI-1/460x460/new-balance-550-white.jpg",
+        "precio": "$6990",
+        "categoria": "mujeres",
+        "stock": "12"
+    },
+
+    {
+        "idx": 19,
+        "titulo": "EQUIPO ADIDAS FZ - BLACK/GREY",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/5f6161/www.zooko.com.uy/zoo/7a30/webp/catalogo/ADGD2867-000-1/460x460/equipo-adidas-fz-black-grey.jpg",
+        "precio": "$3490",
+        "categoria":"Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 20,
+        "titulo": "EQUIPO ADIDAS SUPERSTAR - ROSE",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/9dac7d/www.zooko.com.uy/zoo/578c/webp/catalogo/ADGD2889-000-1/460x460/equipo-adidas-superstar-rose.jpg",
+        "precio": "$3490",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 21,
+        "titulo": "EQUIPO ADIDAS LOCK UP TS - PINK",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/bf00cc/www.zooko.com.uy/zoo/e850/webp/catalogo/ADFM5600-000-1/460x460/equipo-adidas-lock-up-ts-pink-white.jpg",
+        "precio": "$3490",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 22,
+        "titulo": "NIKE AIR FORCE 1 LV8 - WHITE",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/6a20d8/www.zooko.com.uy/zoo/28e4/webp/catalogo/NKDM0985-100-1/460x460/nike-air-force-1-lv8-white.jpg",
+        "precio": "$5990",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 23,
+        "titulo": "NIKE AIR FORCE 1 LE - BLACK",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/90dbdf/www.zooko.com.uy/zoo/208b/webp/catalogo/NKDH2920-001-1/460x460/nike-air-force-1-le-black.jpg",
+        "precio": "$5490",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 24,
+        "titulo":"ADIDAS FORUM MID - CLOUD WHITE",
+        "marca":"https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen":"https://f.fcdn.app/imgs/3dfae1/www.zooko.com.uy/zoo/e439/webp/catalogo/ADHQ6844-4016-1/460x460/adidas-forum-mid-cloud-white-cloud-white-core-black.jpg",
+        "precio":"$5490",
+        "categoria":"Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 25,
+        "titulo": "CANGURO NIKE SPORTSWEAR - GREY",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/7b4b42/www.zooko.com.uy/zoo/baed/webp/catalogo/NKCJ7861-091-1/460x460/canguro-nike-sportswear-club-fleece-grey.jpg",
+        "precio": "$2390",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 26,
+        "titulo": "PANTALON NIKE SPORTSWEAR - BLACK",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/7a0b63/www.zooko.com.uy/zoo/9a44/webp/catalogo/NKCI2911-010-1/460x460/pantalon-nike-sportswear-club-fleece-black.jpg",
+        "precio": "$1990",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 27,
+        "titulo": "EQUIPO ADIDAS TREFOIL - BLUE/WHITE",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/55896d/www.zooko.com.uy/zoo/f766/webp/catalogo/ADGD2629-000-1/460x460/equipo-adidas-trefoil-blue-white.jpg",
+        "precio": "$3490",
+        "categoria": "Niño",
+        "stock": "12"
+    },
+
+    {
+        "idx": 28,
+        "titulo": "GORRO ADIDAS TREFOIL - BORDEAU",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/6fe479/www.zooko.com.uy/zoo/5cff/webp/catalogo/ADHL9328-2071-1/460x460/gorro-adidas-trefoil-bordeau.jpg",
+        "precio": "$1690",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 29,
+        "titulo": "ADIDAS CURVED TRUCKER - GREEN",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/0ee392/www.zooko.com.uy/zoo/9ac8/webp/catalogo/ADIC0023-1028-1/460x460/adidas-curved-trucker-green.jpg",
+        "precio": "$1690",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 30,
+        "titulo": "GORRA ADIDAS TREFOIL - BLUE",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/593245/www.zooko.com.uy/zoo/aa4a/webp/catalogo/ADIB9971-3429-1/460x460/gorra-adidas-trefoil-baseball-blue-white.jpg",
+        "precio": "$1690",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 31,
+        "titulo": "GORRO NIKE SPORTSWEAR BUCKET",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/ffca70/www.zooko.com.uy/zoo/6178/webp/catalogo/NKDC3967-010-1/460x460/gorro-nike-sportswear-bucket-black.jpg",
+        "precio": "$1590",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 32,
+        "titulo": "GORRO JORDAN BUCKET WASHED CAP",
+        "marca": "https://f.fcdn.app/imgs/7d60b8/www.zooko.com.uy/zoo/2396/webp/marcas/jordan/100x70/jordan",
+        "imagen": "https://f.fcdn.app/imgs/5f733e/www.zooko.com.uy/zoo/a31a/webp/catalogo/NKDC3687-010-1/460x460/gorro-jordan-bucket-jm-washed-cap-black.jpg",
+        "precio": "$1590",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 33,
+        "titulo": "GORRO ADIDAS ADICOLOR CLASSIC",
+        "marca": "https://f.fcdn.app/imgs/69c879/www.zooko.com.uy/zoo/e388/webp/marcas/adidas/100x70/adidas",
+        "imagen": "https://f.fcdn.app/imgs/f44c9f/www.zooko.com.uy/zoo/4d09/webp/catalogo/ADIC0009-1032-1/460x460/gorro-adidas-adicolor-classic-stonewashed-black.jpg",
+        "precio": "$2190",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 34,
+        "titulo": "MOCHILA NIKE HERITAGE - PINK",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/5c9751/www.zooko.com.uy/zoo/7059/webp/catalogo/NKDC4244-622-1/460x460/mochila-nike-heritage-pink.jpg",
+        "precio": "$2090",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 35,
+        "titulo": "MOCHILA FILA 2 CIERRES BOLSILLO",
+        "marca": "https://f.fcdn.app/imgs/4f0d19/www.zooko.com.uy/zoo/37aa/webp/marcas/fila/100x70/fila",
+        "imagen": "https://f.fcdn.app/imgs/3789c5/www.zooko.com.uy/zoo/f2e3/webp/catalogo/FL81-34280-1032-1/460x460/mochila-fila-2-cierres-bolsillo-black-grey.jpg",
+        "precio": "$1690",
+        "categoria": "accesorios",
+        "stock": "12"
+    },
+
+    {
+        "idx": 36,
+        "titulo": "MOCHILA NIKE PREMIUM - 217",
+        "marca": "https://f.fcdn.app/imgs/ecf796/www.zooko.com.uy/zoo/7e6b/webp/marcas/nike/100x70/nike",
+        "imagen": "https://f.fcdn.app/imgs/b44a8c/www.zooko.com.uy/zoo/6e49/webp/catalogo/NKDQ5763-3836-1/460x460/mochila-nike-premium-217.jpg",
+        "precio": "$3490",
+        "categoria": "accesorios",
+        "stock": "12"
+    }
+]
