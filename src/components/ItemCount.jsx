@@ -1,9 +1,6 @@
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 
-
-
-
 const ItemCount = ({stock, onAdd}) =>{
 
     const [items, setItems] = useState (1);
@@ -28,7 +25,6 @@ const ItemCount = ({stock, onAdd}) =>{
             setItems(1);
             setItemAgregado(true);
             onAdd(items);
-            console.log("Seleccionaste: " + items + " productos al carrito!\n Te quedan: " + productoStock +" productos")
         }
     }
 

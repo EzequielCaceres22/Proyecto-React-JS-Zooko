@@ -1,147 +1,148 @@
-*{
-    margin: 0%;
-    padding: 0%;
+* {
+	margin: 0px;
+	padding: 0px;
 }
 
 /* Header Styles*/
 
-.div-top{
-    background-color: rgb(87,35,84);
+.div-top {
+	background-color: rgb(87, 35, 84);
 }
 
-.global-ico{
-    width: 80px;
-    margin-left: 10px;
+.global-ico {
+	width: 80px;
+	margin-left: 10px;
 }
 
-.span-style{
-    font-size: 9px;
-    color: white;
-    margin-left: 30px;
+.span-style {
+	font-size: 9px;
+	color: white;
+	margin-left: 30px;
 }
 
-.Header{
-    display:block;
-    margin: auto;
+.Header {
+	display: block;
+	margin: auto;
 }
 
 /* Carrousel Banner y NavBar Styles*/
 
-.carr-hei{
+.carr-hei {
     background-color: #72bed9;
     height: 80px;
 }
 
-.carr-itm{
+.carr-itm {
     position: relative;
     top: 17px;
 }
 
 
-.nav-link{
-    color:rgb(87,35,84);
+.nav-link {
+    color: rgb(87, 35, 84);
 }
 
-.div-header-bg{
+.div-header-bg {
     margin-top: 10px;
     height: 40px;
 }
 
 /* Card Styles*/
 
-.brand{
+.brand {
     position: relative;
     left: -10px;
     height: 46px;
     margin-bottom: 10px;
 }
 
-.card > img {
+.card>img {
     width: auto;
     height: auto;
 }
 
-.card:hover{
+.card:hover {
     transition: all 1s;
     scale: 1.03;
 }
 
-.card-body{
+.card-body {
     background-color: rgba(211, 211, 211, 0.445);
     border-radius: 10px;
 }
 
-.tit-item{
-    height:10px;
+.tit-item {
+    height: 10px;
     margin-bottom: 10px;
 }
 
 /* Card Detail Styles*/
 
-.product-sty{
+.product-sty {
     margin-top: 100px;
     margin-bottom: 100px;
 }
 
-.Env-cam{
+.Env-cam {
     text-align: center;
     padding: 5px;
 }
 
-.Env-p{
+.Env-p {
     font-size: 14px;
 }
 
-.garantia{
+.garantia {
     margin-top: 20px;
     text-align: center;
 }
 
 /* Footer Styles*/
 
-input{
+input {
     outline: none;
 }
 
-.bannerfot{
+.bannerfot {
     width: 100%;
 }
 
-.btn-sub{
-    background-color:rgb(87,35,84) ;
+.btn-sub {
+    background-color: rgb(87, 35, 84);
     color: white;
     border: none;
     height: 28px;
     margin-left: 3px;
+	margin-top: 10px;
 }
 
-li{
+li {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-.div-info{
+.div-info {
     margin-top: 30px;
 }
 
-.paymethod{
+.paymethod {
     text-align: center;
 }
 
-.btn-ico{
+.btn-ico {
     width: 30px;
-    filter:invert(1);
+    filter: invert(1);
 }
 
-.footer{
-    background-color:rgb(34,34,34);
+.footer {
+    background-color: rgb(34, 34, 34);
 }
 
-.ul-stl{
-    border:none;
+.ul-stl {
+    border: none;
     width: 50px;
     height: 50px;
     background-color: #572354;
@@ -149,59 +150,60 @@ a{
     border-radius: 50%;
 }
 
-.btn-div{
+.btn-div {
     text-align: center;
-    }
-    
-    .info-cls{
-        color: white;
-    }
-    
-    .link-color{
-        color: rgb(153,153,153);
-        font-size: 14px;
-    }
-    
-    .img-style{
-        max-width: 40px;
-        margin: 7px;
-        height: 13px;
-        
-    }
+}
 
-    .img-sug{
-        width: 70%;
-    }
-    
-    .img-tit{
-        font-size: 17px;
-        min-height: 35px;
-    }
+.info-cls {
+    color: white;
+}
 
-    .img-brand{
-        width: 30%;
-        margin-bottom: 10px;
-    }
+.link-color {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
 
-    .sug-price{
-        font-size: 18px;
-        margin-bottom: 100px;
-    }
+.img-style {
+    max-width: 40px;
+    margin: 7px;
+    height: 13px;
 
-    .table-width{
-        width: 1200px;
-        margin: auto;
-        margin-top: 50px;
-    }
-    .btn-vaciar{
-        background-color: black !important;
-        color: white ;
-        font-weight: 400;
-        border-radius: 8px;
-        height: 40px;
-    }
-    
-    .btn-vaciar:hover{
-        background-color: #495057 !important;
-        color: white;
-    }
+}
+
+.img-sug {
+    width: 70%;
+}
+
+.img-tit {
+    font-size: 17px;
+    min-height: 35px;
+}
+
+.img-brand {
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.sug-price {
+    font-size: 18px;
+    margin-bottom: 100px;
+}
+
+.table-width {
+    width: 1200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.btn-vaciar {
+    background-color: black !important;
+    color: white;
+    font-weight: 400;
+    border-radius: 8px;
+    height: 40px;
+}
+
+.btn-vaciar:hover {
+    background-color: #495057 !important;
+    color: white;
+}

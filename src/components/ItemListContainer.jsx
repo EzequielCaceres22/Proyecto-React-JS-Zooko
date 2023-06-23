@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-//import productos from "../components/json/products.json"
 import ItemList from "./ItemList"
-import {getFirestore, collection, getDocs, where, query, addDoc} from "firebase/firestore"
+import {getFirestore, collection, getDocs, where, query} from "firebase/firestore"
+import Loading from "./Loading";
 
 const ItemListContainer = () => {
 
     const [items, setItems] = useState([]);
+    const [isLoading, setIsLoading] = useState(true);
     const {id} = useParams();
 
     useEffect(() => {
@@ -16,28 +17,18 @@ const ItemListContainer = () => {
         getDocs(q).then(resultado => {
             if (resultado.size > 0){
                 setItems(resultado.docs.map(producto => ({id:producto.id, ...producto.data()})));
+                setIsLoading(false);
             }
             else {
                 console.error("Error!! No se encontraron productos en la coleccion");
             }
             });
         },[id]);
-
-
-        /* useEffect(() => {
-            const db = getFirestore();
-            const itemsCollection = collection(db, "items");
-
-            productos.forEach(producto => {
-                addDoc(itemsCollection, producto)
-            })
-
-            },[]);*/
     
     return (
         <div className="container my-5">
             <div className="row">
-                <ItemList items={items}/>
+            {isLoading ? <Loading/> : <ItemList items={items}/>}
             </div>
         </div>
     )

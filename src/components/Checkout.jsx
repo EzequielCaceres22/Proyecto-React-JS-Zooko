@@ -1,13 +1,16 @@
 import React, { useContext, useState } from 'react'
+import { Link } from 'react-router-dom';
 import { CartContext } from "./context/CartContext"
 import { addDoc, collection, getFirestore} from "firebase/firestore";
+
 
 const Checkout = () => {
 	const [nombre, setNombre] = useState("");
 	const [email, setEmail] = useState("");
 	const [telefono, setTelefono] = useState("");
     const [ordenId, setOrdenId] = useState("");
-	const {cart, sumaTotalProductos} = useContext(CartContext);
+    const [mostrarBoton, setMostrarBoton] = useState(false);
+	const {cart, sumaTotalProductos, clear} = useContext(CartContext);
 
 
 	const generarOrden = () => {
@@ -29,17 +32,22 @@ const Checkout = () => {
 		const date = `${fecha.getFullYear()}-${fecha.getMonth()+1}-${fecha.getDate()} ${fecha.getHours()}:${fecha.getMinutes()}`;
 		const total = sumaTotalProductos();
 		const orden = {buyer:datosComprador, items:items, date:date, total:total}
-		console.log(orden)
 
 		const db = getFirestore();
 		const OrdenesCollection = collection(db, "ordenes");
-		addDoc(OrdenesCollection, orden).then(resultado =>{
-            setOrdenId(resultado)
-		})
+        addDoc(OrdenesCollection, orden).then(docRef => {
+            setOrdenId(docRef.id);
+            setTimeout(() => {
+                clear()
+                setMostrarBoton(true);
+        }, 2000);
+        })
         .catch(resultado =>{
-            console.log("Tu compra no pudo ser completada");
+            console.log("Tu compra no pudo ser completada con exito!");
         })
     }
+
+    
 
 	return (
         <div className="container">
@@ -47,19 +55,19 @@ const Checkout = () => {
                 <div className="col-md-4">
                 <form>
                     <div className="mb-3">
-                        <label className="form-label">Nombre</label>
+                        <label className="form-label"><b>Nombre</b></label>
                         <input type="text" className="form-control" onInput={(e) => {setNombre(e.target.value)}} />
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">E-mail</label>
+                        <label className="form-label"><b>E-mail</b></label>
                         <input type="email" className="form-control" onInput={(e) => {setEmail(e.target.value)}}/>
                     </div>
                     <div className="mb-3">
-                        <label className="form-label">Telefono</label>
-                        <input type="number" className="form-control" onInput={(e) => {setTelefono(e.target.value)}}/>
+                        <label className="form-label"><b>Telefono</b></label>
+                        <input type="text" className="form-control outline-none" onInput={(e) => {setTelefono(e.target.value)}}/>
                     </div>
                     </form>
-                <button type="submit" className="btn btn-primary" onClick={generarOrden}>Submit</button>
+                <button type="submit" className="btn btn-dark" onClick={generarOrden}><b>COMPLETAR COMPRA</b></button>
                 </div>
                 
                 <div className="col">
@@ -68,15 +76,15 @@ const Checkout = () => {
                     {cart.map(item => (
                         <tr key={item.id}>
                             <td><img src={item.imagen} alt={item.titulo} width={100} /></td>
-                            <td className="align-middle">{item.titulo}</td>
-                            <td className="align-middle">({item.cantidad})  ${item.precio}</td>
-                            <td className="align-middle">${item.cantidad * item.precio}</td>
+                            <td className="align-middle"><b>{item.titulo}</b></td>
+                            <td className="align-middle"><b>({item.cantidad})  ${item.precio}</b></td>
+                            <td className="align-middle"><b>${item.cantidad * item.precio}</b></td>
                         </tr>
                     ))}
                     <tr>
                         <td colSpan={2}></td>
-                        <td className="align-middle">Total a pagar</td>
-                        <td className="align-middle">${sumaTotalProductos()}</td>
+                        <td className="align-middle"><b>Total a pagar</b></td>
+                        <td className="align-middle"><b>${sumaTotalProductos()}</b></td>
                     </tr>
                     </tbody>
                 </table>
@@ -84,12 +92,17 @@ const Checkout = () => {
             </div>
             <div className="row my-5">
                 <div className="col text-center">
-                    {ordenId ? <div className="alert alert-warning" role="alert">
-                        <h1 className="fs-1 text">Gracias por tu Compra!</h1>
-                        <p>Tu Orden de Compra es: {ordenId}</p>
+                    {ordenId ? <div className="alert alert-success" role="alert">
+                        <h2>Gracias por tu Compra!</h2>
+                        <p>Tu Orden de Compra es la Nro: {ordenId}</p>
                     </div> : ""}
+                    <div>
+            {mostrarBoton && (
+                <Link to={"/"} className="btn btn-dark"><b>VOLVER AL INICIO</b></Link>)}
+            </div>
                 </div>
             </div>
+
         </div>
     )
 }
